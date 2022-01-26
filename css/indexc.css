@@ -1,0 +1,100 @@
+body {
+  font-family: 'source sans pro' ,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.4;
+  color:  #7f969e;
+}
+
+h1, h2,h3, p {
+  text-align: center;
+}
+
+header {
+background-color:#2A2A2A;
+position: relative;
+box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);
+}
+header>div {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header img {
+  margin: 16px 0px;
+
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: #d4d4d4;
+  font size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 2px;
+  transition: all .3s;
+
+}
+
+
+nav a:last-of-type {
+  color: #FDB350
+}
+
+header nav a:hover {
+  color:white;
+}
+
+nav a.active {
+  background-color: #107698;
+  color:white;
+}
+
+#pageNameContainer {
+  height: 50px;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  text-align: center;
+  padding: 70px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  text-shadow: 1px 2px 3px black;
+
+}
+
+section.contentContainer {
+  background-color: #fff;
+  padding:54px 0px;
+}
+
+section.contentContainer.backgroundGrey.blockStyle {
+  background-color: #EDEff3;
+}
+
+section.contentContainer h2 {
+  font-size: 34px;
+  font-weight: 300;
+  color: #0a465b;
+  margin-bottom: 32px;
+}
+
+section.contentContainer > p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
