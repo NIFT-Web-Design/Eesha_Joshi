@@ -17,6 +17,9 @@ header {
   top: 0px;
   background-color: #C4C4C4;
   border-radius: 0px 0px 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header>div {
